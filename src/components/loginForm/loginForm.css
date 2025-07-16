@@ -1,0 +1,11 @@
+.myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myForm > button {
+  margin-top: 8px;
+}
+/* > button: The > is the child combinator, which means:
+Select only <button> elements that are direct children of .myForm. */
